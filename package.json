@@ -2,15 +2,8 @@
   "name": "Monorepo",
   "version": "1.0.0",
   "scripts": {
-    "dev": "pnpm -r --parallel dev",
-    "build":"pnpm -r build"
-  },
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.5.1",
-      "onFail": "download"
-    }
+    "dev": "turbo dev",
+    "build":"turbo build"
   },
   "packageManager": "pnpm@12.5.1",
   "type": "module"
